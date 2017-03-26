@@ -3514,7 +3514,7 @@ lodash@^3.5.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.14.1, lodash@^4.16.6, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1, lodash@~4.17.2:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.14.1, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1, lodash@~4.17.2:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -4237,6 +4237,22 @@ react-mixin@^3.0.5:
     object-assign "^4.0.1"
     smart-mixin "^2.0.0"
 
+react-native-button-component@^0.1.16:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/react-native-button-component/-/react-native-button-component-0.1.16.tgz#1e8849f0e82ee7a2ae1a94abbfc1be73db53a0be"
+  dependencies:
+    babel-preset-react-native-stage-0 "^1.0.1"
+    lodash "^4.17.2"
+    react-native-circular-progress "github:jacklam718/react-native-circular-progress#v0.0.8"
+    react-native-linear-gradient "^2.0.0"
+    react-native-spinkit "^1.0.2"
+
+"react-native-circular-progress@github:jacklam718/react-native-circular-progress#v0.0.8":
+  version "0.0.8"
+  resolved "https://codeload.github.com/jacklam718/react-native-circular-progress/tar.gz/1f05129e188e166744ae8ee0455ba9a3ae744353"
+  dependencies:
+    art "^0.10.0"
+
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-dismiss-keyboard/-/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
@@ -4258,6 +4274,10 @@ react-native-drawer-layout@~1.1.5:
   resolved "https://github.com/callstack-io/react-native-fbads/tarball/v4.1.0#e836ed7f4502593d4a4757f27cdfa0ffef4dc729"
   dependencies:
     eventemitter3 "^2.0.2"
+
+react-native-linear-gradient@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.0.0.tgz#7442c00e1fcd9fca329119dcbaf744d12bcd1b5a"
 
 "react-native-maps@https://github.com/exponent/react-native-maps/archive/v0.12.2-exp.1.tar.gz":
   version "0.12.2"
@@ -4283,6 +4303,10 @@ react-native-scripts@0.0.25:
     path-exists "^3.0.0"
     qrcode-terminal "^0.11.0"
     xdl "^37.0.0"
+
+react-native-spinkit@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-spinkit/-/react-native-spinkit-1.0.2.tgz#0d31b019556e038aa8e953038562550cb0ead8d2"
 
 "react-native-svg@https://github.com/exponent/react-native-svg/archive/4.4.1.tar.gz":
   version "4.4.1"
